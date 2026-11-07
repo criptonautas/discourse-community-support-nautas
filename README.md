@@ -1,6 +1,6 @@
 # Community Support
 
-[![Discourse Theme](https://github.com/somos-criptonautas/discourse-community-support-nautas/actions/workflows/discourse-theme.yml/badge.svg)](https://github.com/somos-criptonautas/discourse-community-support-nautas/actions/workflows/discourse-theme.yml)
+[![Discourse Theme](https://github.com/criptonautas/discourse-community-support-nautas/actions/workflows/discourse-theme.yml/badge.svg)](https://github.com/criptonautas/discourse-community-support-nautas/actions/workflows/discourse-theme.yml)
 
 **ENGLISH** | [ESPAÑOL](README.es.md)
 
@@ -8,12 +8,12 @@ Maintained by Criptonautas. Not affiliated with or endorsed by Discourse (Civili
 
 A provider-agnostic Discourse theme component for community support, donations and fundraising widgets. The same presentation system is reused in modals, posts, plugin outlets and HTML placements such as Discourse Ads.
 
-Donations are normally outbound links. With [discourse-btcpay-subscriptions](https://github.com/somos-criptonautas/discourse-btcpay-subscriptions) installed, a method can instead take the payment on-site — see [BTCPay donations](#btcpay-donations). Every BTCPay feature degrades to the previous behaviour when the plugin is absent, so the component works unchanged without it.
+Donations are normally outbound links. With [discourse-btcpay-subscriptions](https://github.com/criptonautas/discourse-btcpay-subscriptions) installed, a method can instead take the payment on-site — see [BTCPay donations](#btcpay-donations). Every BTCPay feature degrades to the previous behaviour when the plugin is absent, so the component works unchanged without it.
 
 ## Requirements
 
 - Discourse 3.4+ — the component ships `.gjs` Glimmer components and uses the objects schema for settings
-- Optional: [discourse-btcpay-subscriptions](https://github.com/somos-criptonautas/discourse-btcpay-subscriptions) for on-site donations and live totals
+- Optional: [discourse-btcpay-subscriptions](https://github.com/criptonautas/discourse-btcpay-subscriptions) for on-site donations and live totals
 
 ## Installation
 
@@ -277,7 +277,7 @@ Design and view are intentionally orthogonal, so every view works with every des
 
 ## Icons
 
-`support_icon` sets the one icon in the layout — the box, the sidebar block, and the fallback when a method has no uploaded logo. It defaults to `ph-dt-hand-heart`, which needs the [Phosphor Duotone icons component](https://github.com/somos-criptonautas/discourse-phosphor-duotone-icons-nautas) installed; set it to `heart` or any other core icon name if you are not using that component.
+`support_icon` sets the one icon in the layout — the box, the sidebar block, and the fallback when a method has no uploaded logo. It defaults to `ph-dt-hand-heart`, which needs the [Phosphor Duotone icons component](https://github.com/criptonautas/discourse-phosphor-duotone-icons-nautas) installed; set it to `heart` or any other core icon name if you are not using that component.
 
 `donate_button_icon` is the icon on the donate button in the box and the sidebar block, where the button carries no text; its label stays as the accessible name for screen readers. It defaults to `ph-dt-paper-plane-tilt` and has the same Phosphor requirement — use `arrow-right` without it. The method list below the box keeps text buttons, since their labels are what tell the methods apart.
 

@@ -1,6 +1,6 @@
 # Community Support
 
-[![Discourse Theme](https://github.com/somos-criptonautas/discourse-community-support-nautas/actions/workflows/discourse-theme.yml/badge.svg)](https://github.com/somos-criptonautas/discourse-community-support-nautas/actions/workflows/discourse-theme.yml)
+[![Discourse Theme](https://github.com/criptonautas/discourse-community-support-nautas/actions/workflows/discourse-theme.yml/badge.svg)](https://github.com/criptonautas/discourse-community-support-nautas/actions/workflows/discourse-theme.yml)
 
 [ENGLISH](README.md) | **ESPAÑOL**
 
@@ -8,12 +8,12 @@ Mantenido por Criptonautas. Sin afiliación ni respaldo de Discourse (Civilized 
 
 Componente de tema de Discourse, independiente de la pasarela de pago, para apoyo a la comunidad, donaciones y widgets de recaudación. El mismo sistema de presentación se reutiliza en modales, publicaciones, plugin outlets y ubicaciones HTML como Discourse Ads.
 
-Normalmente las donaciones son enlaces salientes. Con [discourse-btcpay-subscriptions](https://github.com/somos-criptonautas/discourse-btcpay-subscriptions) instalado, un método puede cobrar dentro de Discourse — ver [Donaciones con BTCPay](#donaciones-con-btcpay). Todas las funciones de BTCPay vuelven al comportamiento anterior cuando el plugin no está, así que el componente funciona igual sin él.
+Normalmente las donaciones son enlaces salientes. Con [discourse-btcpay-subscriptions](https://github.com/criptonautas/discourse-btcpay-subscriptions) instalado, un método puede cobrar dentro de Discourse — ver [Donaciones con BTCPay](#donaciones-con-btcpay). Todas las funciones de BTCPay vuelven al comportamiento anterior cuando el plugin no está, así que el componente funciona igual sin él.
 
 ## Requisitos
 
 - Discourse 3.4+ — el componente usa componentes Glimmer `.gjs` y el esquema de objetos para los ajustes
-- Opcional: [discourse-btcpay-subscriptions](https://github.com/somos-criptonautas/discourse-btcpay-subscriptions) para donaciones dentro del sitio y totales en vivo
+- Opcional: [discourse-btcpay-subscriptions](https://github.com/criptonautas/discourse-btcpay-subscriptions) para donaciones dentro del sitio y totales en vivo
 
 ## Instalación
 
@@ -277,7 +277,7 @@ Diseño y vista son ortogonales a propósito: cualquier vista funciona con cualq
 
 ## Iconos
 
-`support_icon` define el único icono de la disposición: la caja, el bloque de la barra lateral y el icono de reserva cuando un método no tiene logotipo subido. Por defecto es `ph-dt-hand-heart`, que requiere el [componente de iconos Phosphor Duotone](https://github.com/somos-criptonautas/discourse-phosphor-duotone-icons-nautas) instalado; usa `heart` o cualquier otro icono del núcleo si no usas ese componente.
+`support_icon` define el único icono de la disposición: la caja, el bloque de la barra lateral y el icono de reserva cuando un método no tiene logotipo subido. Por defecto es `ph-dt-hand-heart`, que requiere el [componente de iconos Phosphor Duotone](https://github.com/criptonautas/discourse-phosphor-duotone-icons-nautas) instalado; usa `heart` o cualquier otro icono del núcleo si no usas ese componente.
 
 `donate_button_icon` es el icono del botón de donar en la caja y en el bloque de la barra lateral, donde el botón no lleva texto; su etiqueta se mantiene como nombre accesible para lectores de pantalla. Por defecto es `ph-dt-paper-plane-tilt` y tiene el mismo requisito de Phosphor; sin él, usa `arrow-right`. La lista de métodos bajo la caja mantiene botones con texto, porque sus etiquetas son lo que distingue cada método.
 
